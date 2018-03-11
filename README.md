@@ -1,2 +1,0 @@
-# JoinMaster
-JoinMaster Source Code
