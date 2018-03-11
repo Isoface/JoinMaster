@@ -1,0 +1,61 @@
+###### Support Minecraft Normal Colors ######
+JoinMaster_Config:
+###### Spawn ######
+  Spawn:
+    Use: true
+    World: ''
+    X: 0
+    Y: 0
+    Z: 0
+    yaw: 0
+    pitch: 0
+###### BossBar ######
+  BossBar:
+    Use: true
+    Type: MOMENTARY
+    Seconds: 10
+    Title: '&aMy Servidor'
+    Color: 'BLUE'
+###### BossBar Types: (MOMENTARY, PERMANENT) (Writing on Uppercase Letters) ######
+###### 'Seconds' is For BossBar Type: 'MOMENTARY' ######
+###### Color is Avalible only for Spigot Versions: (1.9 - 1.12) (Writing on Uppercase Letters)######
+###### BossBar Colors: (PINK,  BLUE,  RED,  GREEN,  YELLOW,  PURPLE,  WHITE) ######
+###### ActionBar ######
+  ActionBar:
+    Use: true
+    ActionMessage: '&aMessage'
+###### Titles ######
+  Title:
+    Use: true
+    TitleMessage: '&6Title'
+    SubTitleMessage: '&aSubTitle'
+###### Messages ###### 'WelcomeMessage IF ONLY FOR USERS WITH THE PERMISSION: JoinMaster.WelcomeMessage '
+  Message:
+    Use_WelcomeMessage: true
+    WelcomeMessage: '&6&l[%player_prefix%&6&l]&r &4&l%player_name%&r &6&lHas been Joined to Server!.'
+    
+    Use: true
+    Messages:
+    - 'a'
+    - 'b'
+    - 'c'
+###### StrikeLightningEffect ######
+  StrikeLightningEffect:
+    Use: true
+###### FireWorks ######
+  FireWorks:
+    Use: false
+    RandomColors: true
+    Color_1: BLUE 
+    Color_2: RED
+######(Color_1 and Color_2 ==> If RandomColor Is Not Activated) (Writing on Uppercase Letters) ######
+###### Sound ######
+  Sound:
+    Use: true
+    SoundName: ''
+    Pitch: '0'
+###### Effect ######
+  Effect:
+    Use: true
+    EffectName: ''
+    EffectIntensity: 200

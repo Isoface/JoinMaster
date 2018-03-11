@@ -1,0 +1,7 @@
+main: com.hotmail.AdrianSRJose.JoinMaster.JoinMaster
+name: JoinMaster
+author: [Adrian_Suarez]
+version: 1.4
+commands:
+  JoinMaster:
+    usage: /JoinMaster
